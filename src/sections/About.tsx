@@ -4,50 +4,98 @@ export function AboutSection({ heading, id }: Sections) {
   return (
     <section className="about-section-wrapper section">
       <h2 id={id}>{heading}</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis
-        convallis convallis tellus id. Egestas quis ipsum suspendisse ultrices
-        gravida dictum. At urna condimentum mattis pellentesque id nibh. Sed
-        vulputate odio ut enim blandit volutpat maecenas volutpat. Id aliquet
-        risus feugiat in ante metus. Duis ultricies lacus sed turpis tincidunt
-        id aliquet. Mauris rhoncus aenean vel elit. Adipiscing elit ut aliquam
-        purus sit amet luctus venenatis. Lobortis elementum nibh tellus molestie
-        nunc non. Pharetra convallis posuere morbi leo urna. Nibh tortor id
-        aliquet lectus proin nibh. Consequat semper viverra nam libero justo
-        laoreet. Congue mauris rhoncus aenean vel elit scelerisque mauris
-        pellentesque. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Sit
-        amet consectetur adipiscing elit ut aliquam. Rhoncus est pellentesque
-        elit ullamcorper dignissim cras tincidunt lobortis feugiat. Ut tortor
-        pretium viverra suspendisse potenti nullam ac tortor. Nullam non nisi
-        est sit amet facilisis magna etiam. In hendrerit gravida rutrum quisque
-        non. Aliquet risus feugiat in ante. Tortor dignissim convallis aenean et
-        tortor at risus. Malesuada fames ac turpis egestas sed. Magna etiam
-        tempor orci eu lobortis elementum nibh tellus molestie. Mattis
-        pellentesque id nibh tortor id aliquet lectus proin. At quis risus sed
-        vulputate. Orci sagittis eu volutpat odio facilisis mauris sit amet.
-        Elementum integer enim neque volutpat ac tincidunt vitae semper. Aliquet
-        sagittis id consectetur purus ut. Mollis nunc sed id semper risus in
-        hendrerit gravida rutrum. Vitae justo eget magna fermentum. Id porta
-        nibh venenatis cras sed felis eget velit aliquet. Purus in mollis nunc
-        sed id semper risus in hendrerit. Vitae purus faucibus ornare
-        suspendisse sed nisi lacus. Et malesuada fames ac turpis egestas sed. Id
-        neque aliquam vestibulum morbi. Tempus quam pellentesque nec nam aliquam
-        sem et tortor. Vulputate dignissim suspendisse in est ante in nibh
-        mauris. Ullamcorper a lacus vestibulum sed arcu. Sollicitudin tempor id
-        eu nisl nunc mi. Convallis a cras semper auctor neque vitae. Duis
-        tristique sollicitudin nibh sit amet commodo. Porttitor rhoncus dolor
-        purus non enim praesent elementum facilisis. Ante metus dictum at tempor
-        commodo ullamcorper a lacus vestibulum. Volutpat blandit aliquam etiam
-        erat velit scelerisque. Eget felis eget nunc lobortis mattis aliquam
-        faucibus. Sed arcu non odio euismod lacinia at quis risus sed. In nulla
-        posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.
-        Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Velit ut
-        tortor pretium viverra. Cras tincidunt lobortis feugiat vivamus at
-        augue. Pellentesque diam volutpat commodo sed egestas egestas fringilla.
-        Eu volutpat odio facilisis mauris sit amet. Ante metus dictum at tempor
-        commodo ullamcorper a.
-      </p>
+
+      <div className="about-me-section">
+        <p>
+          I started my journey into IT in 2019, first by delving into the world
+          of data science and data analysis by doing various courses through{" "}
+          <a
+            href="https://app.datacamp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-link"
+          >
+            DataCamp
+          </a>
+          . During my transition period when moving to Finland, I was a
+          freelance copywriter and SEO specialist, and while I enjoy copywriting
+          - it was not something that kept my brain busy enough. With the Global
+          Pandemic (tm) going on, I had little to do, and started looking into
+          web development. My first course was done via{" "}
+          <a
+            href="https://www.udemy.com/"
+            className="text-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Udemy
+          </a>
+          , and I thoroughly enjoyed the entire bootcamp. I enjoyed coding, the
+          design elements and fact that there is always more to learn. After
+          completing the bootcamp, I applied to and Haaga-Helia Polytechnic
+          University and began my studies in Information Technology the next
+          spring.
+        </p>
+        <p>
+          While at Haaga-Helia, I realised that my main passion is UI/UX
+          development. While I also enjoy UI/UX design, coding is still a
+          passion of mine, and I want to keep coding and learning.
+        </p>
+        <p>
+          During my first internship at MegaVentory, I further realised that I
+          just naturally inclined towards frontend development, and most
+          especially UI/UX development. The 3 months at MegaVentory involved a
+          lot of challenges, from working overseas for a month, to working with
+          the team remotely from Finland. However, I worked hard, and within
+          these few months had learnt ASP.NET (which I had never worked in
+          before), redid the entire documentation for the web application and
+          redone the entire frontend to be responsive. I definitely learnt a
+          lot, particularly when it comes to making large pull requests that
+          take over the entire application - AKA don't do it!
+        </p>
+        <p>
+          I was lucky enough to get a part-time job straight after my internship
+          with a Finnish company, based in Porvoo. My main duties in the first
+          year of work included redoing the intranet to be easier to use and
+          find information (as well as adding a ton of information), creating
+          custom documents for clients (often on a tight time schedule) and my
+          biggest project, redoing the entire HubSpot website. This included
+          learning how to code in a CMS, as well as the HubSpot development
+          suite. After 6 months, I took on more responsibilities in the
+          codebase, starting to implement new features, particularly by making
+          them more user friendly and accessible. I also worked in conjunction
+          with the designer, and was often helping her either implement designs,
+          or change current designs that were not feasible codewise. By the end
+          of the year, I was working full time while completing my degree, and
+          was helping to integrate any new members into the team.
+        </p>
+        <p>
+          Once I had graduated, I was offered the Scrum Master role at Hailer,
+          which I happily accepted and have been working in every since. As
+          Scrum Master, I have implemented new processes, updated old ones and
+          in general tried my best to make the working life for my coworkers as
+          easy as possible. I have also been working on updating the frontend to
+          be accessible to WCAG guidelines, fixing numerous frontend bugs and
+          updating the web application to be responsive and easy to customers to
+          use. One of my main projects is updating the error handling, where we
+          ensure that users are always aware of what errors are actually
+          occurring, and what they can do to solve them.
+        </p>
+        <p>
+          Around the office I am well known for my chatter, laugh and being
+          happy to learn and engage in any new features or topics. I make sure I
+          am available to all coworkers, and the Projects and Sales teams have
+          often leaned on me for help regarding code, fixes or other programming
+          questions.
+        </p>
+        <p>
+          My favourite pastime is to go hiking in the glorious Finnish nature
+          with my partner and our dogs. Summer and autumn are my favourite
+          seasons, and I adore hiking in the autumn. I am also a voracious
+          reader, and if am not outside doing outdoorsy things - I am probably
+          knee deep in books.
+        </p>
+      </div>
     </section>
   );
 }

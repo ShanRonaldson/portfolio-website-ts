@@ -22,7 +22,7 @@ export function UniversityInfo() {
               <SkillsList skills={uni.skills}></SkillsList>
               <img
                 className="vines"
-                src={require("./../../styles/trees.svg").default}
+                src={require("./../../images/trees.svg").default}
                 alt=""
               />
             </div>

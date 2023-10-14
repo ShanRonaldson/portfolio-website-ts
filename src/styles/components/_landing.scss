@@ -1,6 +1,5 @@
-
-
-.landing-section-wrapper {
+.landing-section-wrapper,
+.about-section-wrapper {
   margin-top: 1rem;
   color: $text;
   gap: 1em;
@@ -18,11 +17,8 @@
   height: 90%;
 }
 
-.hello-section{
-    align-items: center;
-    border-bottom: 5px ;
-    padding-bottom: 1em;
-}
-
-.about-me-section {
+.hello-section {
+  align-items: center;
+  border-bottom: 5px;
+  padding-bottom: 1em;
 }

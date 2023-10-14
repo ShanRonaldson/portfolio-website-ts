@@ -1,6 +1,5 @@
 import { SkillsList } from "./SkillsList";
 import educationData from "../../data/education.json";
-import "../../styles/vine.svg";
 
 export function OtherEduInfo() {
   let other = educationData.other;
@@ -32,7 +31,7 @@ export function OtherEduInfo() {
               <SkillsList skills={course.skills}></SkillsList>
               <img
                 className="vines"
-                src={require("./../../styles/trees.svg").default}
+                src={require("./../../images/trees.svg").default}
                 alt=""
               />
             </div>

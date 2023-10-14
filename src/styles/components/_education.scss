@@ -6,13 +6,13 @@
       from(rgba(126, 213, 111, 0.801)),
       to(rgba(40, 180, 133, 0.801))
     ),
-    url("../trees");
+    url("../../images/trees.jpg");
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.801),
       rgba(40, 180, 133, 0.801)
     ),
-    url("../trees.jpg");
+    url("../../images/trees.jpg");
   padding-top: 5rem;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
