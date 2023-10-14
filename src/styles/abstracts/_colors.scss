@@ -1,0 +1,22 @@
+$primary: #61c878;
+$secondary: #49ac5e;
+$highlight-1: #fce09b;
+$text: #000000;
+$background: #f7f7f7;
+$background-highlight: #c8f0d9;
+$bg-highlight-text: #103c18;
+
+$linear-gradient: linear-gradient(to right bottom, #7ed56f, #28b485);
+$linear-gradient-webkit: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  from(#7ed56f),
+  to(#28b485)
+);
+
+$heading-linear-gradient: linear-gradient(
+  to right bottom,
+  rgba(126, 213, 111, 0.801),
+  rgba(40, 180, 133, 0.801)
+);

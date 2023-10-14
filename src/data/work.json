@@ -1,0 +1,159 @@
+[
+  {
+    "1": {
+      "company": "Pam Golding Properties",
+      "position": "Office Administrator and Marketing Secretary",
+      "type": "Full-time",
+      "location": "Stellenbosch, South Africa",
+      "start": "May 2018",
+      "end": "May 2019",
+      "duties": [
+        "Administration of the office supplies, work schedules and client meetings.",
+        "Marketing copy created for various magazines, newspapers and Facebook advertisements.",
+        "Ensured a smooth running of the office, and between fellow employees"
+      ],
+      "skills": [
+        "Administration",
+        "Documentation",
+        "Project management",
+        "SEO",
+        "Copywriting",
+        "Customer service",
+        "Facebook ads",
+        "Google Analytics",
+        "Team work",
+        "Communication",
+        "Microsoft Office"
+      ]
+    },
+    "2": {
+      "company": "",
+      "position": "Freelance copywriter",
+      "type": "Freelance",
+      "location": "Stellenbosch, South Africa & Helsinki, Finland",
+      "start": "July 2019",
+      "end": "September 2021",
+      "duties": [
+        "Writing copy materials for various websites and businesses. Copy included ensuring SEO requirements were met.",
+        "Ensured effective communication between myself and my clients.",
+        "Personal time management to meet other company deadlines.",
+        "Multicultural work with various entities."
+      ],
+      "skills": [
+        "Copywriting",
+        "SEO",
+        "Time management",
+        "Microsoft Office",
+        "Communication",
+        "Administration"
+      ]
+    },
+    "3": {
+      "company": "MegaVentory",
+      "position": "Junior Developer",
+      "type": "Full-time",
+      "location": "Athens, Greece",
+      "start": "September 2021",
+      "end": "December 2021",
+      "duties": [
+        "Updating the frontend to use updated technologies and create a more modern look on the web application.",
+        "Made the web application mobile friendly by implementing dynamic screenviews.",
+        "Create and implement features for web application using ASP.NET Web Forms, DevExpress, SQL Management Server and JavaScript"
+      ],
+      "skills": [
+        "ASP.NET",
+        "Scrum",
+        "Agile development",
+        "Prettier",
+        "Web Accessibility",
+        "User experience design (UED)",
+        "UI/UX development",
+        "Responsive web design",
+        "JavaScript",
+        "jQuery",
+        "CSS",
+        "Git",
+        "Microsoft SQL Server",
+        "Team work",
+        "Documentation",
+        "Time management"
+      ]
+    },
+    "4": {
+      "company": "Hailer Oy",
+      "position": "Junior Developer",
+      "type": "Part-time",
+      "location": "Porvoo, Finland",
+      "start": "January 2022",
+      "end": "December 2022",
+      "duties": [
+        "Renewed the HubSpot website based on designs.",
+        "Implemented new registration and login flows in the HubSpot website.",
+        "Renewed the documentation and created intranet for documentation.",
+        "Updated various frontend features to be WCAG compliant and accessible,  and updated the SCSS layout."
+      ],
+      "skills": [
+        "Angular",
+        "TypeScript",
+        "Agile development",
+        "Documentation",
+        "Git",
+        "JavaScript",
+        "Prettier",
+        "Eslint",
+        "Project management",
+        "Responsive web design",
+        "Web Accessibility",
+        "User experience design (UED)",
+        "UI/UX development",
+        "Scrum",
+        "SEO",
+        "HubSpot (CMS) Development",
+        "Prototyping",
+        "HTML",
+        "SCSS/SASS",
+        "Figma"
+      ]
+    },
+    "5": {
+      "company": "Hailer Oy",
+      "position": "UI/UX Engineer and Scrum Master",
+      "type": "Full-time",
+      "location": "Porvoo, Finland",
+      "start": "January 2023",
+      "end": "November 2023",
+      "duties": [
+        "Worked on updating processes and systems to increase productivity and cohesiveness.",
+        "Updated features and components to follow WCAG guidelines.",
+        "Designed and coded new features and components.",
+        "Updated features to be compliant with the current design system and to be WCAG compliant.",
+        "Scrum master duties including sprint planning, retrospectives, daily standups."
+      ],
+      "skills": [
+        "Agile development",
+        "Angular",
+        "CSS",
+        "Customer service",
+        "Documentation",
+        "Eslint",
+        "Figma",
+        "Git",
+        "HTML",
+        "HubSpot (CMS) Development",
+        "JavaScript",
+        "Prettier",
+        "Project management",
+        "Prototyping",
+        "Responsive web design",
+        "Responsive web design",
+        "Scrum",
+        "SCSS/SASS",
+        "Team work",
+        "TypeScript",
+        "UI/UX development",
+        "User experience design (UED)",
+        "Web Accessibility"
+      ]
+    }
+  }
+]

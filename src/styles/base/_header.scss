@@ -1,0 +1,27 @@
+@use "../abstracts/colors" as *;
+
+header {
+  display: grid;
+  grid-template-rows: 4rem;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  align-items: center;
+  justify-items: center;
+  background-color: $primary;
+  padding: 0 1.5rem;
+  border-radius: 20% 20% / 0 0 10px 10px;
+
+  nav {
+    display: flex;
+    gap: 1em;
+
+    a {
+      color: $text;
+
+      &:focus-visible,
+      &:hover {
+        color: $bg-highlight-text;
+        background-color: $background-highlight;
+      }
+    }
+  }
+}

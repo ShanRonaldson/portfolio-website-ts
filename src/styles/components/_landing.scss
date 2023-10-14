@@ -1,0 +1,28 @@
+
+
+.landing-section-wrapper {
+  margin-top: 1rem;
+  color: $text;
+  gap: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.hello-section,
+.about-me-section {
+  gap: 1em;
+  display: flex;
+  flex-flow: column wrap;
+  width: 90%;
+  height: 90%;
+}
+
+.hello-section{
+    align-items: center;
+    border-bottom: 5px ;
+    padding-bottom: 1em;
+}
+
+.about-me-section {
+}

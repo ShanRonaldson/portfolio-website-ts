@@ -1,0 +1,36 @@
+@use "../abstracts/colors" as *;
+@use "../abstracts/variables" as *;
+
+footer {
+  background-color: $background-highlight;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 1.5rem 0.5rem;
+  border-radius: 20% 20% / 15px 15px 0 0;
+  position: relative;
+  bottom: 0;
+
+  nav,
+  .outside-links-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+
+    a {
+      color: $bg-highlight-text;
+
+      &.outside-link {
+        display: flex;
+        gap: 0.5em;
+      }
+
+      &:focus-visible, &:hover{
+        color: $background-highlight;
+        background-color: $bg-highlight-text;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
