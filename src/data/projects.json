@@ -1,25 +1,26 @@
 {
   "1": {
-    "name": "",
-    "related-to": "",
-    "description": "",
+    "name": "Website showcasing animations and basic website development",
+    "related-to": "Advanced CSS and Sass: Flexbox, Grid, Animations and More! By Jonas Schmedtmann",
+    "description": "Completed during the Advanced CSS and Sass course, this website was designed by the course creator. This project centered around creating effective animations and interesting design elements.",
     "link": "https://shanronaldson.github.io/Natours_Jonas_Course/",
-    "other": ""
+    "other": "",
+    "image": "natours"
   },
-
   "2": {
-    "name": "",
-    "related-to": "Haaga-Helia Polytechnic University",
-    "description": "",
+    "name": "Website with deep dive into Flex Grid",
+    "related-to": "Advanced CSS and Sass: Flexbox, Grid, Animations and More! By Jonas Schmedtmann",
+    "description": "This website was completed during the Advanced CSS and Sass course, and is centered around the use of flex box in an effective manner.",
     "link": "https://shanronaldson.github.io/starter-Trillo-Jonas/",
-    "other": ""
+    "other": "",
+    "image": "trillo"
   },
-
   "3": {
-    "name": "",
+    "name": "Culture Guide website",
     "related-to": "Haaga-Helia Polytechnic University",
-    "description": "",
+    "description": "Created with a group of 3 other students, in associating with Haaga-Helia and an American university. The main purpose of this project was to build an effective website following a theme (cultural diversity). The project emphasizes the work needed to create valid, accessible, and usable information displays for a global audience.",
     "link": "https://iupui-hh.github.io/globalclassroom/group1/",
-    "other": "Link to main project: https://iupui-hh.github.io/globalclassroom/"
+    "other": "Link to main project: https://iupui-hh.github.io/globalclassroom/",
+    "image": "culture"
   }
 }

@@ -14,8 +14,8 @@
     ),
     url("../../images/trees.jpg");
   padding-top: 5rem;
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: $clip-path-top;
+  clip-path: $clip-path-top;
 
   .section-header{
     color: $background;

@@ -13,7 +13,7 @@
   gap: 1em;
   display: flex;
   flex-flow: column wrap;
-  width: 90%;
+  width: 55%;
   height: 90%;
 }
 
@@ -21,4 +21,54 @@
   align-items: center;
   border-bottom: 5px;
   padding-bottom: 1em;
+}
+
+.landing-section-wrapper {
+  -webkit-clip-path: $clip-path-bottom;
+  clip-path: $clip-path-bottom;
+}
+
+.notable-skills-section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1em;
+}
+
+.notable-skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4em 1em;
+  /* background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(126, 213, 111, 0.301)),
+      to(rgba(40, 180, 133, 0.301))
+    ),
+    url("../../images/trees-fog.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.301),
+      rgba(40, 180, 133, 0.301)
+    ),
+    url("../../images/trees-fog.jpg"); */
+  background-position: right;
+
+  color: $text;
+  clip-path: $clip-path-top-bottom;
+  padding: 2rem;
+}
+
+.notable-skills {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.2em 1em;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-left: 2px $secondary solid;
+  border-right: 2px $secondary solid;
+
+  .skill {
+  }
 }
