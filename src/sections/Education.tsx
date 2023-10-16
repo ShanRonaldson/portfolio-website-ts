@@ -5,7 +5,7 @@ import { Sections } from "./Sections.interface";
 export function EducationSection({ heading, id }: Sections) {
   return (
     <section className="education-section-wrapper section column-section">
-      <h2 id={id} className="section-header">
+      <h2 id={id} className="section-header space-on-top">
         {heading}
       </h2>
 

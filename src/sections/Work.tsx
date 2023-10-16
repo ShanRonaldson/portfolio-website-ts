@@ -6,7 +6,7 @@ import { DutiesList } from "../components/work/DutiesList";
 export function WorkSection({ heading, id }: Sections) {
   return (
     <section className="work-section-wrapper section column-section">
-      <h2 className="section-header" id={id}>
+      <h2 className="section-header space-on-top" id={id}>
         {heading}
       </h2>
 
