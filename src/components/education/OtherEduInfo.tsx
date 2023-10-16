@@ -25,7 +25,7 @@ export function OtherEduInfo() {
               <p>
                 {course.institution} {course.type}
               </p>
-              <p>
+              <p className="bottom-divider">
                 <strong>Completed: </strong> {course.completed}
               </p>
               <SkillsList skills={course.skills}></SkillsList>
