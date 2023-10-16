@@ -70,7 +70,7 @@
       "completed": "2019",
       "link": "https://app.datacamp.com/learn/career-tracks/r-programmer",
       "skills": {
-        "soft": ["Time management"],
+        "soft": [],
         "hard": [
           "R",
           "Data analysis",
@@ -104,7 +104,7 @@
       "completed": "2020",
       "link": "https://www.udemy.com/course/web-design-secrets/",
       "skills": {
-        "soft": ["Time management"],
+        "soft": [],
         "hard": [
           "HTML5",
           "CSS",
@@ -123,7 +123,7 @@
       "completed": "2020",
       "link": "https://www.udemy.com/course/advanced-css-and-sass/",
       "skills": {
-        "soft": ["Time management"],
+        "soft": [],
         "hard": [
           "Accessibility",
           "CSS",
@@ -140,7 +140,7 @@
       "completed": "2020",
       "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
       "skills": {
-        "soft": ["Time management"],
+        "soft": [],
         "hard": [
           "React",
           "Express.js",
