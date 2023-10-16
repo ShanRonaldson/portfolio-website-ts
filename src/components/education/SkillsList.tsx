@@ -6,7 +6,7 @@ export function SkillsList({ skills }: Skills) {
     <p><strong>Skills</strong></p>
       <ul className="skills-list-wrapper">
         {skills.map((skill, key) => (
-          <li key={key}>{skill}</li>
+          <li key={key} className="skill">{skill}</li>
         ))}
       </ul>
     </>
