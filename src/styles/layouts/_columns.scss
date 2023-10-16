@@ -20,6 +20,7 @@
     @media (max-width: $tablet-width) {
       display: flex;
       flex-flow: column wrap;
+      margin: 1rem 0;
     }
 
     .content-wrapper {
@@ -44,8 +45,11 @@
 
         .heading {
           display: flex;
-          align-items: center;
           gap: 1em;
+
+          @media (max-width: 500px) {
+            text-align: center;
+          }
 
           @media (max-width: $small-width) {
             flex-flow: column wrap;
