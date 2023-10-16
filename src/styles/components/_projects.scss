@@ -37,6 +37,12 @@
   gap: 1em;
   color: $text;
   position: relative;
+
+  @media (max-width: 700px) {
+    display: flex;
+    flex-flow: column wrap;
+    
+  }
 }
 
 .project-image {

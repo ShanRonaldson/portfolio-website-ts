@@ -24,4 +24,15 @@ header {
       }
     }
   }
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 700px) {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em 0;
+    gap: 5px;
+  }
 }

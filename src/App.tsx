@@ -13,6 +13,11 @@ function App() {
     /* { label: "About Me", link: "about" }, */
     { label: "My Education", link: "education" },
     { label: "My Projects", link: "projects" },
+    {
+      label: "My CV",
+      link: "https://drive.google.com/file/d/1KiLOfF7LfTFlXVGzIstLskMhcj_D5GRJ/view?usp=sharing",
+      outsideLink: true,
+    },
   ];
 
   return (

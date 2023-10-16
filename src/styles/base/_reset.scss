@@ -37,6 +37,7 @@ ul {
   display: flex;
   flex-flow: column nowrap;
   min-height: 100vh;
+  overflow-y: hidden;
 
   main {
     flex: 1 0 auto;
@@ -48,4 +49,28 @@ ul {
   header {
     flex-shrink: 0;
   }
+}
+
+h1 {
+  font-size: calc(1rem + 1vw);
+}
+
+h2 {
+  font-size: calc(0.8rem + 1vw);
+}
+
+h3 {
+  font-size: calc(0.6rem + 1vw)
+}
+
+h4 {
+  font-size: calc(0.4rem + 1vw)
+}
+
+h5 {
+  font-size: calc(0.2rem + 1vw)
+}
+
+h6 {
+  font-size: 1vw;
 }

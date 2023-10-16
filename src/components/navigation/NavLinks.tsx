@@ -7,10 +7,12 @@ export function NavLinks({ sections }: NavLinksProps) {
         {sections.map((section, i: number) => (
           <a
             aria-label={section.ariaText || section.label}
-            href={`/#${section.link}`}
+            href={
+              !!section.outsideLink ? `${section.link}` : `/#${section.link}`
+            }
             key={i}
-            target={!!section.openInNewTab ? "_blank" : "_self"}
-            rel={!!section.openInNewTab ? "noreferrer" : ""}
+            target={!!section.outsideLink ? "_blank" : "_self"}
+            rel={!!section.outsideLink ? "noreferrer" : ""}
           >
             {section.label}
           </a>

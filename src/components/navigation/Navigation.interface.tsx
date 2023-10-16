@@ -2,7 +2,7 @@ export interface NavigationProps {
   label: string;
   ariaText?: string;
   link: string;
-  openInNewTab?: boolean
+  outsideLink?: boolean
 }
 
 export interface NavLinksProps {
