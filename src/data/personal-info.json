@@ -1,28 +1,19 @@
 {
-  "name": {
-    "first": "Shannon",
-    "last": "Ronaldson",
-    "display": "Shannon Ronaldson"
-  },
-  "about": {
-    "short": "",
-    "long": ""
-  },
   "skills": {
     "1": ["React", "Intermediate"],
-    "2": ["UI/UX development", "Proficient"],
-    "3": ["UI/UX design", "Proficient"],
-    "4": ["Angular", "Competent"],
-    "5": ["WCAG Compliance", "Proficient"],
+    "2": ["Angular", "Competent"],
+    "3": ["UI/UX development", "Proficient"],
+    "4": ["UI/UX design", "Proficient"],
+    "5": ["Figma", "Proficient"],
     "6": ["Project management", "Competent"],
     "7": ["JavaScript", "Proficient"],
     "8": ["TypeScript", "Intermediate"],
     "9": ["CSS", "Expert"],
     "10": ["SCSS/SASS", "Expert"],
-    "11": ["HubSpot CMS Development", "Competent"],
-    "12": ["Copywriting", "Proficient"],
-    "13": ["Figma", "Proficient"],
-    "14": ["Responsive websites", "Expert"],
-    "15": ["Testing (Cypress)", "Competent"]
+    "11": ["WCAG Compliance", "Proficient"],
+    "12": ["Responsive websites", "Expert"],
+    "13": ["Testing (Cypress)", "Competent"],
+    "14": ["Copywriting", "Proficient"],
+    "15": ["HubSpot CMS Development", "Competent"]
   }
 }

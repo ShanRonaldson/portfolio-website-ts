@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use '../abstracts/colors' as *;
 
 .section {
   min-height: 60vh;
@@ -29,5 +30,11 @@
     @media (max-width: $small-width) {
       font-size: calc(0.6rem + 1vw);
     }
+  }
+
+  .soft-skills{
+    border-top: 1px solid $secondary;
+    margin: 10px 0;
+    width: 50%;
   }
 }

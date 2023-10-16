@@ -1,6 +1,15 @@
 .work-section-wrapper {
   @include background-image("./../../images/trees-fog.jpg");
-  background-position: center;
+  background-position-y: 70%;
+  background-position-x: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+
+  .content-wrapper{
+    max-width: 90%;
+  }
 }
 
 .heading-wrapper {

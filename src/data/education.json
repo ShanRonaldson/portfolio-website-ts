@@ -6,7 +6,21 @@
       "years": "2013 - 2017",
       "degree": "Bachelor of Science INCOMPLETE",
       "major": "Conservation Ecology",
-      "skills": ["R", "Writing", "Teamwork", "Flora and fauna conservation"]
+      "skills": {
+        "soft": ["Teamwork", "Communication"],
+        "hard": [
+          "R",
+          "Microsoft Office",
+          "Writing",
+          "Field surveys",
+          "Flora and fauna conservation",
+          "Scientific writing",
+          "Scientific methodology",
+          "Chemistry",
+          "Biology",
+          "Ecology"
+        ]
+      }
     },
     "2": {
       "institution": "Haaga-Helia Polytechnic University",
@@ -14,33 +28,38 @@
       "years": "2021 - 2023",
       "degree": "Bachelor of Business Administration",
       "major": "Frontend development and UI/UX design",
-      "skills": [
-        "Software development",
-        "Java",
-        "React",
-        "JavaScript",
-        "Express.js",
-        "Git",
-        "User Experience (UX)",
-        "User Interface (UI) design",
-        "Prototyping",
-        "SQL Server Management Studio",
-        "TypeScript",
-        "Web development",
-        "Frontend development",
-        "Backend development",
-        "Responsive web design",
-        "Accessibility",
-        "SASS/SCSS",
-        "Scrum",
-        "Agile project management",
-        "Project management",
-        "Figma",
-        "HTML5",
-        "MongoDB",
-        "SQL",
-        "APIs"
-      ]
+      "skills": {
+        "soft": [
+          "Project management",
+          "Multicultural team work"
+        ],
+        "hard": [
+          "Software development",
+          "Java",
+          "React",
+          "JavaScript",
+          "Express.js",
+          "Git",
+          "User Experience (UX)",
+          "User Interface (UI) design",
+          "Prototyping",
+          "SQL Server Management Studio",
+          "TypeScript",
+          "Web development",
+          "Frontend development",
+          "Backend development",
+          "Responsive web design",
+          "Accessibility",
+          "SASS/SCSS",
+          "Scrum",
+          "Agile project management",
+          "Figma",
+          "HTML5",
+          "MongoDB",
+          "SQL",
+          "APIs"
+        ]
+      }
     }
   },
   "other": {
@@ -50,13 +69,16 @@
       "course": "R programmer",
       "completed": "2019",
       "link": "https://app.datacamp.com/learn/career-tracks/r-programmer",
-      "skills": [
-        "R",
-        "Data analysis",
-        "Data manipulation",
-        "Data display",
-        "Statistics"
-      ]
+      "skills": {
+        "soft": ["Time management"],
+        "hard": [
+          "R",
+          "Data analysis",
+          "Data manipulation",
+          "Data display",
+          "Statistics"
+        ]
+      }
     },
     "2": {
       "type": "Bootcamp",
@@ -64,15 +86,16 @@
       "course": "Become a Product Manager | Learn the Skills & Get the Job by Cole Mercer and Evan Kimbrell",
       "completed": "2020",
       "link": "https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job/",
-      "skills": [
-        "Balsamiq",
-        "Agile project management",
-        "Project management",
-        "Product management",
-        "Scrum",
-        "Customer interviews and surveys",
-        "Competitive and Market Analysis"
-      ]
+      "skills": {
+        "soft": ["Project management", "Communication"],
+        "hard": [
+          "Balsamiq",
+          "Agile project management",
+          "Scrum",
+          "Customer interviews and surveys",
+          "Competitive and Market Analysis"
+        ]
+      }
     },
     "3": {
       "type": "Short course",
@@ -80,15 +103,18 @@
       "course": "Web Design for Web Developers: Build Beautiful Websites! By Jonas Schmedtmann",
       "completed": "2020",
       "link": "https://www.udemy.com/course/web-design-secrets/",
-      "skills": [
-        "HTML5",
-        "CSS",
-        "SASS/SCSS",
-        "Accessibility",
-        "User Experience (UX)",
-        "User Interface (UI) design",
-        "Responsive web design"
-      ]
+      "skills": {
+        "soft": ["Time management"],
+        "hard": [
+          "HTML5",
+          "CSS",
+          "SASS/SCSS",
+          "Accessibility",
+          "User Experience (UX)",
+          "User Interface (UI) design",
+          "Responsive web design"
+        ]
+      }
     },
     "4": {
       "type": "Bootcamp",
@@ -96,13 +122,16 @@
       "course": "Advanced CSS and Sass: Flexbox, Grid, Animations and More! By Jonas Schmedtmann",
       "completed": "2020",
       "link": "https://www.udemy.com/course/advanced-css-and-sass/",
-      "skills": [
-        "Accessibility",
-        "CSS",
-        "HTML5",
-        "Responsive web design",
-        "SASS/SCSS"
-      ]
+      "skills": {
+        "soft": ["Time management"],
+        "hard": [
+          "Accessibility",
+          "CSS",
+          "HTML5",
+          "Responsive web design",
+          "SASS/SCSS"
+        ]
+      }
     },
     "5": {
       "type": "Bootcamp",
@@ -110,23 +139,26 @@
       "course": "The Complete 2020 Web Developer Bootcamp by Angela Yu",
       "completed": "2020",
       "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
-      "skills": [
-        "React",
-        "Express.js",
-        "Frontend development",
-        "Backend development",
-        "Git",
-        "JavaScript",
-        "Responsive web design",
-        "Web development",
-        "HTML5",
-        "Node",
-        "MongoDB",
-        "CSS",
-        "APIs",
-        "SQL",
-        "Mongoose"
-      ]
+      "skills": {
+        "soft": ["Time management"],
+        "hard": [
+          "React",
+          "Express.js",
+          "Frontend development",
+          "Backend development",
+          "Git",
+          "JavaScript",
+          "Responsive web design",
+          "Web development",
+          "HTML5",
+          "Node",
+          "MongoDB",
+          "CSS",
+          "APIs",
+          "SQL",
+          "Mongoose"
+        ]
+      }
     }
   }
 }

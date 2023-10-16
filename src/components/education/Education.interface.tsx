@@ -1,3 +1,6 @@
-export interface Skills{
-    skills: string[]
+export interface SkillList {
+  skills: {
+    soft: string[];
+    hard: string[];
+  };
 }

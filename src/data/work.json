@@ -11,19 +11,23 @@
       "Marketing copy created for various magazines, newspapers and Facebook advertisements.",
       "Ensured a smooth running of the office, and between fellow employees"
     ],
-    "skills": [
-      "Administration",
-      "Documentation",
-      "Project management",
-      "SEO",
-      "Copywriting",
-      "Customer service",
-      "Facebook ads",
-      "Google Analytics",
-      "Team work",
-      "Communication",
-      "Microsoft Office"
-    ]
+    "skills": {
+      "soft": [
+        "Administration",
+        "Project management",
+        "Customer service",
+        "Team work",
+        "Communication",
+        "Documentation"
+      ],
+      "hard": [
+        "SEO",
+        "Copywriting",
+        "Facebook ads",
+        "Google Analytics",
+        "Microsoft Office"
+      ]
+    }
   },
   "2": {
     "company": "Freelance",
@@ -38,14 +42,10 @@
       "Personal time management to meet other company deadlines.",
       "Multicultural work with various entities."
     ],
-    "skills": [
-      "Copywriting",
-      "SEO",
-      "Time management",
-      "Microsoft Office",
-      "Communication",
-      "Administration"
-    ]
+    "skills": {
+      "soft": ["Time management", "Communication", "Administration"],
+      "hard": ["Copywriting", "SEO", "Microsoft Office"]
+    }
   },
   "3": {
     "company": "MegaVentory",
@@ -59,24 +59,24 @@
       "Made the web application mobile friendly by implementing dynamic screenviews.",
       "Create and implement features for web application using ASP.NET Web Forms, DevExpress, SQL Management Server and JavaScript"
     ],
-    "skills": [
-      "ASP.NET",
-      "Scrum",
-      "Agile development",
-      "Prettier",
-      "Web Accessibility",
-      "User experience design (UED)",
-      "UI/UX development",
-      "Responsive web design",
-      "JavaScript",
-      "jQuery",
-      "CSS",
-      "Git",
-      "Microsoft SQL Server",
-      "Team work",
-      "Documentation",
-      "Time management"
-    ]
+    "skills": {
+      "soft": ["Team work", "Documentation", "Time management"],
+      "hard": [
+        "ASP.NET",
+        "Scrum",
+        "Agile development",
+        "Prettier",
+        "Web Accessibility",
+        "User experience design (UED)",
+        "UI/UX development",
+        "Responsive web design",
+        "JavaScript",
+        "jQuery",
+        "CSS",
+        "Git",
+        "Microsoft SQL Server"
+      ]
+    }
   },
   "4": {
     "company": "Hailer Oy",
@@ -91,28 +91,34 @@
       "Renewed the documentation and created intranet for documentation.",
       "Updated various frontend features to be WCAG compliant and accessible,  and updated the SCSS layout."
     ],
-    "skills": [
-      "Angular",
-      "TypeScript",
-      "Agile development",
-      "Documentation",
-      "Git",
-      "JavaScript",
-      "Prettier",
-      "Eslint",
-      "Project management",
-      "Responsive web design",
-      "Web Accessibility",
-      "User experience design (UED)",
-      "UI/UX development",
-      "Scrum",
-      "SEO",
-      "HubSpot (CMS) Development",
-      "Prototyping",
-      "HTML",
-      "SCSS/SASS",
-      "Figma"
-    ]
+    "skills": {
+      "soft": [
+        "Documentation",
+        "Project management",
+        "Communication",
+        "Team work"
+      ],
+      "hard": [
+        "Angular",
+        "TypeScript",
+        "Agile development",
+        "Git",
+        "JavaScript",
+        "Prettier",
+        "Eslint",
+        "Responsive web design",
+        "Web Accessibility",
+        "User experience design (UED)",
+        "UI/UX development",
+        "Scrum",
+        "SEO",
+        "HubSpot (CMS) Development",
+        "Prototyping",
+        "HTML",
+        "SCSS/SASS",
+        "Figma"
+      ]
+    }
   },
   "5": {
     "company": "Hailer Oy",
@@ -128,30 +134,29 @@
       "Updated features to be compliant with the current design system and to be WCAG compliant.",
       "Scrum master duties including sprint planning, retrospectives, daily standups."
     ],
-    "skills": [
-      "Agile development",
-      "Angular",
-      "CSS",
-      "Customer service",
-      "Documentation",
-      "Eslint",
-      "Figma",
-      "Git",
-      "HTML",
-      "HubSpot (CMS) Development",
-      "JavaScript",
-      "Prettier",
-      "Project management",
-      "Prototyping",
-      "Responsive web design",
-      "Responsive web design",
-      "Scrum",
-      "SCSS/SASS",
-      "Team work",
-      "TypeScript",
-      "UI/UX development",
-      "User experience design (UED)",
-      "Web Accessibility"
-    ]
+    "skills": {
+      "soft": ["Customer service", "Documentation", "Project management"],
+      "hard": [
+        "Agile development",
+        "Angular",
+        "CSS",
+        "Eslint",
+        "Figma",
+        "Git",
+        "HTML",
+        "HubSpot (CMS) Development",
+        "JavaScript",
+        "Prettier",
+        "Prototyping",
+        "Responsive web design",
+        "Scrum",
+        "SCSS/SASS",
+        "Team work",
+        "TypeScript",
+        "UI/UX development",
+        "User experience design (UED)",
+        "Web Accessibility"
+      ]
+    }
   }
 }
