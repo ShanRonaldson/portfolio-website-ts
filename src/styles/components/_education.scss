@@ -27,6 +27,12 @@
     clip-path: $clip-path-top-bottom;
     padding-bottom: 5rem;
   }
+
+ @media (max-width: $tiny-width) {
+      clip-path: none;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+ } 
 }
 
 .edu-block {

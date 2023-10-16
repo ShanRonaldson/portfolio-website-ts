@@ -28,7 +28,7 @@ export function LandingSection({ heading, id }: Sections) {
           {Object.entries(skills).map(([key, skill]) => (
             <div className="notable-skills" key={key}>
               <div className="skill">{skill[0]}</div>
-              <div className="expertise">{skill[1]}</div>
+              <div className="skill">{skill[1]}</div>
             </div>
           ))}
         </div>

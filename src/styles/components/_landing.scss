@@ -87,4 +87,9 @@
   border-radius: 10px;
   border-left: 2px $secondary solid;
   border-right: 2px $secondary solid;
+  word-break: break-word;
+
+  @media (max-width: $tiny-width) {
+    gap: 0.2em;
+  }
 }
