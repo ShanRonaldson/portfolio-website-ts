@@ -1,5 +1,5 @@
 @use "../abstracts/variables" as *;
-@use '../abstracts/colors' as *;
+@use "../abstracts/colors" as *;
 
 .section {
   min-height: 60vh;
@@ -11,10 +11,6 @@
   flex-flow: column wrap;
   max-height: 18rem;
 
-  @media (max-width: 1060px) {
-    max-height: 16rem;
-  }
-
   @media (max-width: $small-width) {
     max-height: unset;
   }
@@ -22,7 +18,7 @@
   .skill,
   .duty {
     word-break: break-word;
-    
+
     @media (max-width: $tablet-width) {
       font-size: calc(0.4rem + 1vw);
     }
@@ -31,10 +27,17 @@
       font-size: calc(0.6rem + 1vw);
     }
   }
+}
 
-  .soft-skills{
-    border-top: 1px solid $secondary;
-    margin: 10px 0;
-    width: 50%;
-  }
+.top-divider {
+  border-bottom: none;
+  border-top: 1px solid $secondary;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.bottom-divider {
+  border-bottom: 2px solid $secondary;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }

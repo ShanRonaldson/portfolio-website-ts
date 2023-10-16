@@ -17,7 +17,7 @@ export function WorkSection({ heading, id }: Sections) {
           .map((value, i: number) => (
             <div className="content-wrapper" key={i}>
               <div className="content">
-                <div className="heading-wrapper">
+                <div className="bottom-divider">
                   <h3 className="heading small">{value.position}</h3>
                   <p className="subheading">
                     {value.company}

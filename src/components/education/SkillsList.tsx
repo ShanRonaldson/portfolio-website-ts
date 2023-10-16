@@ -16,7 +16,7 @@ export function SkillsList({ skills }: SkillList) {
           </li>
         ))}
 
-        <div className="soft-skills"></div>
+        <div className="top-divider"></div>
         {softSkills.length > 0 &&
           softSkills.map((skill, key) => (
             <li className="skill soft" key={key}>

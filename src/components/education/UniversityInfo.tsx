@@ -16,7 +16,7 @@ export function UniversityInfo() {
                 {uni.institution} <i>({uni.years})</i>
               </h4>
               <small>{uni.location}</small>
-              <p>
+              <p className="bottom-divider">
                 {uni.degree} in <strong> {uni.major}</strong>
               </p>
               <SkillsList skills={uni.skills}></SkillsList>
