@@ -4,18 +4,18 @@ import { Sections } from "./Sections.interface";
 
 export function EducationSection({ heading, id }: Sections) {
   return (
-    <section className="education-section-wrapper section">
+    <section className="education-section-wrapper section column-section">
       <h2 id={id} className="section-header">
         {heading}
       </h2>
 
       <h3 className="section-header">University Education</h3>
-      <div className="edu-block">
+      <div className="column-block-wrapper">
         <UniversityInfo></UniversityInfo>
       </div>
 
       <h3 className="section-header">Other courses</h3>
-      <div className="edu-block small">
+      <div className="column-block-wrapper small">
         <OtherEduInfo></OtherEduInfo>
       </div>
     </section>

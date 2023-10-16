@@ -7,10 +7,15 @@
 /* Abstracts */
 @import "abstracts/colors";
 @import "abstracts/media-query";
-@import "abstracts/typography";
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 /* Components */
 @import "components/education";
 @import "components/landing";
 @import "components/projects";
+@import "components/work";
+
+/* Layouts */
+
+@import "layouts/columns";

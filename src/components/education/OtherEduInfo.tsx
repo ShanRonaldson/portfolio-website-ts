@@ -10,7 +10,7 @@ export function OtherEduInfo() {
         .sort()
         .reverse()
         .map(([key, course]) => (
-          <div key={key} className={`edu-block-content-wrapper ${key}`}>
+          <div key={key} className="content-wrapper">
             <div className="content">
               <p>
                 <a

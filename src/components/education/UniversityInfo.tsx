@@ -10,9 +10,9 @@ export function UniversityInfo() {
         .sort()
         .reverse()
         .map(([key, uni]) => (
-          <div key={key} className="edu-block-content-wrapper large">
+          <div key={key} className="content-wrapper">
             <div className="content">
-              <h4>
+              <h4 className="heading">
                 {uni.institution} <i>({uni.years})</i>
               </h4>
               <small>{uni.location}</small>

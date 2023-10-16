@@ -1,4 +1,33 @@
+@use "../abstracts/variables" as *;
+
 .section {
   min-height: 60vh;
   padding: 1em;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 18rem;
+
+  @media (max-width: 1060px) {
+    max-height: 16rem;
+  }
+
+  @media (max-width: $small-width) {
+    max-height: unset;
+  }
+
+  .skill,
+  .duty {
+    word-break: break-word;
+    
+    @media (max-width: $tablet-width) {
+      font-size: calc(0.4rem + 1vw);
+    }
+
+    @media (max-width: $small-width) {
+      font-size: calc(0.6rem + 1vw);
+    }
+  }
 }

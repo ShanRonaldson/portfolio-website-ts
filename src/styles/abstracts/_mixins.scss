@@ -1,0 +1,35 @@
+@mixin background-image(
+  $image,
+  $color-with-opacity-from: #7ed56fcc,
+  $color-with-opacity-to: #28b485cc
+) {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from($color-with-opacity-from),
+      to($color-with-opacity-to)
+    ),
+    url("../../images/trees.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      $color-with-opacity-from,
+      $color-with-opacity-to
+    ),
+    url($image);
+  padding-top: 5rem;
+  -webkit-clip-path: $clip-path-top;
+  clip-path: $clip-path-top;
+
+  @media (max-width: $small-width) {
+    -webkit-clip-path: $clip-path-top-bottom;
+    clip-path: $clip-path-top-bottom;
+    padding-bottom: 5rem;
+  }
+
+  @media (max-width: $tiny-width) {
+    clip-path: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
