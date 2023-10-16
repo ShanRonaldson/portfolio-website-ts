@@ -22,5 +22,13 @@
     "link": "https://iupui-hh.github.io/globalclassroom/group1/",
     "other": "Link to main project: https://iupui-hh.github.io/globalclassroom/",
     "image": "culture"
+  },
+  "4": {
+    "name": "Design for new expanded view of files",
+    "related-to": "Hailer Oy",
+    "description": "This design was created while the designer was away. We had a client request that the current files tab be redone to show more of the files, and give more information. In the Figma drawing there are more comments based on the decisions (purple notes) and the blue notes are notes I made for the developer in charge of this project. Many of the developers did not know how to use Figma, so we found it easier to write out notes so they are able to easily understand the designs.",
+    "link": "https://www.figma.com/file/RfvuOpHjTVCi7QtdqFE3BX/Designs-from-Hailer?type=design&node-id=0%3A1&mode=design&t=dNBSVrtoK2Cm4C5Y-1",
+    "other": "",
+    "image": "expand-view"
   }
 }
