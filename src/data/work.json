@@ -158,5 +158,41 @@
         "Web Accessibility"
       ]
     }
+  },
+  "6": {
+    "company": "Plugit Finland Oy",
+    "position": "Frontend Developer",
+    "type": "Full-time",
+    "location": "Tampere, Finland",
+    "start": "February 2024",
+    "end": "current",
+    "duties": [
+      "Contributed to the unification of web application UI, including ensuring all components are responsive, and cross-browser compatible.",
+      "Direct collaboration with the UI designer and product owner, in Figma, to ensure designs are aligned with component best practices.",
+      "Contributed to a major rework of the UI system, including reworking the entire npm UI library to be WCAG compliant, and user friendly.",
+      "Contributed to a major rework of the system input components to increase scalability, and decrease errors.",
+      "Creation of modular, reusable, WCAG compliant, user friendly Angular components.",
+      "Ensured UI components were well-documented, easy to integrate, scalable and consistently styled.",
+      "Maintained components to meet design and UI requirements.",
+      "Tested features, and components and ensured that the output was consistent, scalable and well-documented.",
+      "Collaboration with other teams in ensuring consistent user interfaces, and ensuring user experience is consistent and easy"
+    ],
+    "skills": {
+      "soft": ["Customer service", "Documentation", "Communication", "Team work"],
+      "hard": [
+        "Angular",
+        "TypeScript",
+        "Web Accessibility",
+        "Cross browser compatibility",
+        "Responsive web design",
+        "Figma",
+        "Git",
+        "HTML",
+        "SCSS/SASS",
+        "UI/UX development",
+        "User experience design (UED)",
+        "WCAG compliance"
+      ]
+    }
   }
 }
