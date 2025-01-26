@@ -17,7 +17,7 @@ function App() {
     { label: "My Education", link: "education" },
     {
       label: "My CV",
-      link: "https://drive.google.com/file/d/1eGUAP-e7MJMygEB-0br_OTLprC1g2b4s/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1qF4aGGtAHmUBENEtV0XssoIO3oHGMAgc/view?usp=sharing",
       outsideLink: true,
     },
   ];

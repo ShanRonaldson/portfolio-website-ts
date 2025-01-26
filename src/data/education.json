@@ -29,10 +29,7 @@
       "degree": "Bachelor of Business Administration",
       "major": "Frontend development and UI/UX design",
       "skills": {
-        "soft": [
-          "Project management",
-          "Multicultural team work"
-        ],
+        "soft": ["Project management", "Multicultural team work"],
         "hard": [
           "Software development",
           "Java",
@@ -158,6 +155,43 @@
           "SQL",
           "Mongoose"
         ]
+      }
+    },
+    "6": {
+      "type": "Course",
+      "institution": "Helsinki University",
+      "course": "Fullstack Open",
+      "completed": "2023",
+      "link": "https://fullstackopen.com/en/",
+      "skills": {
+        "soft": [],
+        "hard": [
+          "React",
+          "Redux",
+          "Node",
+          "MongoDB",
+          "GraphQL",
+          "TypeScript",
+          "REST api",
+          "Jest",
+          "Express.js"
+        ]
+      }
+    },
+    "7": {
+      "type": "Course",
+      "institution": "Helsinki University",
+      "course": "Element of AI",
+      "completed": "2023",
+      "link": "https://www.elementsofai.com/",
+      "skills": {
+        "soft": [
+          "Ethics",
+          "AI privacy and ethics",
+          "AI safety and risks",
+          "AI policy and strategy"
+        ],
+        "hard": ["Artificial Intelligence"]
       }
     }
   }
